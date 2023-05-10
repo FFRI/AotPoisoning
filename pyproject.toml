@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "AotPoisoning"
+version = "0.1.0"
+description = ""
+authors = ["Koh M. Nakagawa"]
+
+[tool.poetry.dependencies]
+python = ">=3.9 <3.12"
+typer = "^0.4.0"
+mypy = "^0.971"
+pyinstaller = "^5.8.0"
+
+[tool.poetry.dev-dependencies]
+black = "^22.1.0"
+isort = "^5.10.1"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
